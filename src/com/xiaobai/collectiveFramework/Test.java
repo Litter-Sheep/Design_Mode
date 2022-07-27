@@ -1,4 +1,4 @@
-package com.xiaobai.collective_framework;
+package com.xiaobai.collectiveFramework;
 
 import java.util.*;
 

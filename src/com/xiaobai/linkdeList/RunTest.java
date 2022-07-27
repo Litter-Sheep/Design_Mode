@@ -24,6 +24,14 @@ public class RunTest {
         linkedList.addLast("世界！");
         System.out.println(linkedList);
 
+        // 使用remove()函数删除指定元素
+        linkedList.remove("Hello");
+        System.out.println(linkedList);
+
+        // remove()函数删除成功返回true，失败返回false
+        System.out.println(linkedList.remove("Hello"));
+        System.out.println(linkedList);
+
         // 使用removeFirst函数移除头部元素
         linkedList.removeFirst();
         System.out.println(linkedList);
@@ -53,5 +61,8 @@ public class RunTest {
         for (String str : linkedList) {
             System.out.println(str);
         }
+
+        // 使用contains函数判断元素是否存在于集合中
+        System.out.println(linkedList.contains("Hello"));
     }
 }

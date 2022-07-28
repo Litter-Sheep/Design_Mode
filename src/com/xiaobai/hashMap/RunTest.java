@@ -36,7 +36,7 @@ public class RunTest {
         System.out.println(stringHashMap.remove("four"));
         System.out.println(stringHashMap);
         // 删除所有键值对
-//        stringHashMap.clear();
+        stringHashMap.clear();
         System.out.println(stringHashMap);
         // 迭代输入Key和Vaule
         for (String i : stringHashMap.keySet()) {
@@ -46,7 +46,5 @@ public class RunTest {
         for (String v : stringHashMap.values()) {
             System.out.print(v + ",");
         }
-
-
     }
 }

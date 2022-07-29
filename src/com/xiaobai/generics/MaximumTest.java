@@ -11,6 +11,7 @@ public class MaximumTest {
     // 比较三个数的值，并返回最大值
     public static <T extends Comparable<T>> T maximum(T x, T y, T z) {
         T max = x;
+        System.out.println(y.compareTo(max));
         if (y.compareTo(max) > 0) {
             max = y;
         }

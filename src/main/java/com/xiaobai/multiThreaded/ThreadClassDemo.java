@@ -1,5 +1,7 @@
 package com.xiaobai.multiThreaded;
 
+import static jdk.nashorn.internal.runtime.regexp.joni.Config.log;
+
 /**
  * @paogram: com.xiaobai.multiThreaded
  * @description:
